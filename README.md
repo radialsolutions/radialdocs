@@ -18,7 +18,9 @@ The load data is an array of JSON objects representing the unfactored loads appl
  - Uniformly Distributed Loads (UDLs)
  - Partial UDLs (UDLs acting on part of the beam)
 
-The type of load applied to the beam is communicated through the **loadPattern** property in the JSON load object. Each load object must also have a **loadCase** property (either DL, LL or WL - Dead, Live, Wind respectively) and a **loadAmount** property which is given in kN for Point loads and kN/m for the UDLs.
+The type of load applied to the beam is communicated through the ```loadPattern``` property in the JSON load object. Each load object must also have a ```loadCase``` property (either DL, LL or WL - Dead, Live, Wind respectively) and a ```loadAmount``` property which is given in kN for Point loads and kN/m for the UDLs.
+
+Other inputs are load-specific and may be seen in the sample request body below. Note: All positional inputs are put as percentages of the beam span. i.e. a ```loadPosition``` of 0.5 refers to a Point load in the middle of the beam.
 
 #### Beam span
 The beam span is to be input in metres.
