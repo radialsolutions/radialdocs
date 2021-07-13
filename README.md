@@ -58,8 +58,6 @@ Shown below is an example request body adhering to the above:
 }
 ```
 
-In other words, the request body must contain an array of JSON objects representing the loads
-
 ## Headers
 The API is protected by an API key which must be included in the request header as follows:
 
