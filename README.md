@@ -3,6 +3,18 @@
 
 Radial is currently developing a REST API to simplify the process of engineering simply supported beams. This is an extension of a tried and tested Excel workbook developed by Radial/Cantilever Connections.
 
+
+- [Radial Simple Support API](#radial-simple-support-api)
+  * [Body (Inputs)](#body--inputs-)
+      - [Load data](#load-data)
+      - [Beam span](#beam-span)
+      - [Maximum deflection limit](#maximum-deflection-limit)
+      - [Sample Request Body](#sample-request-body)
+  * [Headers](#headers)
+  * [Example Usage (Python)](#example-usage--python-)
+  * [TODOS](#todos)
+  * [License](#license)
+
 The API exposes a single POST endpoint at: https://api.radialapp.com/simple-support
 
 ## Body (Inputs)
