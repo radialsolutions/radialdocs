@@ -70,6 +70,14 @@ Shown below is an example request body adhering to the above:
 }
 ```
 
+## Load Combinations
+Load combinations for serviceability and strength are input as follows:
+
+Name | Limit state | DL | LL | WL 
+--- | --- | --- | --- | ---
+Ultimate dead load | Strength| 1.35 | 0 | 0
+Dead and Live | Strength | 1.2 | 1.5 | 0
+
 ## Headers
 The API is protected by an API key which must be included in the request header as follows:
 
@@ -141,7 +149,8 @@ print(getMembers(data))
 
 - [x] Point, UDL and Partial UDLs supported for Strength
 - [x] Point and UDL supported for Serviceability
-- [ ] Partial UDL supported for Serviceablity
+- [x] Partial UDL supported for Serviceablity
+- [ ] Add percentage efficiency to the response 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
