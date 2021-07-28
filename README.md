@@ -77,6 +77,9 @@ Name | Limit state | DL | LL | WL
 --- | --- | --- | --- | ---
 Ultimate dead load | Strength| 1.35 | 0 | 0
 Dead and Live | Strength | 1.2 | 1.5 | 0
+Dead | Serviceability | 1 | 0 | 0
+Live | Serviceability | 0 | 1 | 0
+Wind | Serviceability | 0 | 0 | 1
 
 ## Headers
 The API is protected by an API key which must be included in the request header as follows:
